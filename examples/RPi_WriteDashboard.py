@@ -30,8 +30,8 @@ while True:
 	print ('RPi 3 Core temperature : ', cpu_temp, ' celcuis')
 	print(r.url)
 
-	#Display response from IoTtweet server
+	# Display response from IoTtweet server
 	print(r.text)
 
 	print('Wait refresh..')
-	time.sleep(15)	#Wait at least 15 sec.
+	time.sleep(15)	# Wait at least 15 sec.
